@@ -196,7 +196,7 @@ keymap.set("n", "<leader>tc", ":NvimTreeClose<CR>")
 ### 代码补全
 
 [mason](https://github.com/williamboman/mason.nvim)
-[nvim-cmp]()
+[nvim-cmp](https://github.com/hrsh7th/nvim-cmp/releases)
 
 实现代码补全需要两类插件:`lsp`和`cmp`
 * `lsp`是语言服务协议,可以当作代码补全的后端
@@ -207,4 +207,7 @@ keymap.set("n", "<leader>tc", ":NvimTreeClose<CR>")
 
 ### vim-tmux
 
+[vim-tmux](https://github.com/christoomey/vim-tmux-navigator)
 
+`vim-tmux`让neovim和tmux的交互更方便
+* **注意**:使用该插件不止需要修改neovim配置,还需要修改tmux的配置
