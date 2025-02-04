@@ -14,7 +14,7 @@ require("mason-lspconfig").setup({
   ensure_installed = {
     "lua-ls", -- lua
     "clangd", -- c/c++
-    "clang-format" -- json
+    "clang-format", -- json
   }
 })
 

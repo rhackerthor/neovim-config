@@ -16,4 +16,4 @@ require("bufferline").setup{
 local keymap = vim.keymap
 keymap.set("n", "<C-i>", ":BufferLineCyclePrev<CR>")
 keymap.set("n", "<C-o>", ":BufferLineCycleNext<CR>")
-keymap.set("n", "<C-x>", ":BufferLineCloseOthers<CR>")
+
