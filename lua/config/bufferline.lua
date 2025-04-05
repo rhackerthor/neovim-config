@@ -1,6 +1,8 @@
 require("bufferline").setup{
   options = {
+    separator_style = "slant",
     themable = true,
+    -- 让出 nvim-tree 的位置
     offsets = {
       {
         text = "File Explorer",
@@ -9,7 +11,8 @@ require("bufferline").setup{
         separator = true
       }
     },
-    diagnostics = "nvim_lsp"
+    diagnostics = "nvim_lsp",
+    color_icons = true,
   }
 }
 
